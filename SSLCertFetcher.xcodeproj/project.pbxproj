@@ -1,0 +1,72 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXGroup section */
+		1D2BCDAB2DB7E7CE0052662E = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		1D2BCDAC2DB7E7CE0052662E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = 1D2BCDAF2DB7E7CE0052662E /* Build configuration list for PBXProject "SSLCertFetcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D2BCDAB2DB7E7CE0052662E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1D2BCDB02DB7E7CE0052662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9W5GNN3UJZ;
+			};
+			name = Debug;
+		};
+		1D2BCDB12DB7E7CE0052662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9W5GNN3UJZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D2BCDAF2DB7E7CE0052662E /* Build configuration list for PBXProject "SSLCertFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2BCDB02DB7E7CE0052662E /* Debug */,
+				1D2BCDB12DB7E7CE0052662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D2BCDAC2DB7E7CE0052662E /* Project object */;
+}
