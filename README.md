@@ -14,3 +14,7 @@ A simple Swift CLI tool to download SSL certificates from a hostname and export 
 ```bash
 git clone https://github.com/your-username/SSLCertFetcher.git
 cd SSLCertFetcher
+
+2. Run build:
+```bash
+.build/release/certfetcher [host-name]
