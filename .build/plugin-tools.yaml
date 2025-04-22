@@ -1,0 +1,66 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SSLCertFetcher-x86_64-apple-macosx15.0-release.module": ["<SSLCertFetcher-x86_64-apple-macosx15.0-release.module>"]
+  "certfetcher-x86_64-apple-macosx15.0-release.exe": ["<certfetcher-x86_64-apple-macosx15.0-release.exe>"]
+  "main": ["<SSLCertFetcher-x86_64-apple-macosx15.0-release.module>","<certfetcher-x86_64-apple-macosx15.0-release.exe>"]
+  "test": ["<SSLCertFetcher-x86_64-apple-macosx15.0-release.module>","<certfetcher-x86_64-apple-macosx15.0-release.exe>"]
+default: "main"
+nodes:
+  "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift"]
+    outputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources"]
+    description: "Write auxiliary file /Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources"
+
+  "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o"]
+    outputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher.product/Objects.LinkFileList"
+
+  "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+
+  "<SSLCertFetcher-x86_64-apple-macosx15.0-release.module>":
+    tool: phony
+    inputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules/SSLCertFetcher.swiftmodule"]
+    outputs: ["<SSLCertFetcher-x86_64-apple-macosx15.0-release.module>"]
+
+  "<certfetcher-x86_64-apple-macosx15.0-release.exe>":
+    tool: phony
+    inputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher"]
+    outputs: ["<certfetcher-x86_64-apple-macosx15.0-release.exe>"]
+
+  "C.SSLCertFetcher-x86_64-apple-macosx15.0-release.module":
+    tool: shell
+    inputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources"]
+    outputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules/SSLCertFetcher.swiftmodule"]
+    description: "Compiling Swift Module 'SSLCertFetcher' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","SSLCertFetcher","-emit-dependencies","-emit-module","-emit-module-path","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules/SSLCertFetcher.swiftmodule","-output-file-map","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/output-file-map.json","-whole-module-optimization","-num-threads","8","-c","@/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources","-I","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules","-target","x86_64-apple-macosx12.0","-O","-j8","-DSWIFT_PACKAGE","-module-cache-path","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","SSLCertFetcher_main","-color-diagnostics","-swift-version","5","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","sslcertfetcher"]
+
+  "C.certfetcher-x86_64-apple-macosx15.0-release.exe":
+    tool: shell
+    inputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher.product/Objects.LinkFileList"]
+    outputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher"]
+    description: "Linking ./.build/x86_64-apple-macosx/release/certfetcher"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release","-o","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher","-module-name","certfetcher","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-dead_strip","-Xlinker","-alias","-Xlinker","_SSLCertFetcher_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher.product/Objects.LinkFileList","-target","x86_64-apple-macosx12.0","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Package.swift","/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

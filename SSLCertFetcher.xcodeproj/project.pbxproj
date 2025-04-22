@@ -6,11 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		1D2BCDB22DB7E7D80052662E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		1D2BCDB62DB7E8120052662E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1D2BCDB92DB7E8B60052662E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1D2BCDAB2DB7E7CE0052662E = {
 			isa = PBXGroup;
 			children = (
+				1D2BCDB32DB7E7F60052662E /* Sources */,
+				1D2BCDB22DB7E7D80052662E /* Package.swift */,
+				1D2BCDB92DB7E8B60052662E /* README.md */,
 			);
+			sourceTree = "<group>";
+		};
+		1D2BCDB32DB7E7F60052662E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1D2BCDB52DB7E80B0052662E /* SSLCertFetcher */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1D2BCDB52DB7E80B0052662E /* SSLCertFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				1D2BCDB62DB7E8120052662E /* main.swift */,
+			);
+			path = SSLCertFetcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

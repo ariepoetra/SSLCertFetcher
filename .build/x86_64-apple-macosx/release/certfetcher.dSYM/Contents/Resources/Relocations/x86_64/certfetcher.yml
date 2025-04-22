@@ -1,0 +1,29 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher'
+relocations:
+  - { offset: 0x9A97D, size: 0x8, addend: 0x0, symName: _SSLCertFetcher_main, symObjAddr: 0x0, symBinAddr: 0x100001EB0, symSize: 0x180 }
+  - { offset: 0x9A9A1, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher4argsSaySSGvp', symObjAddr: 0x91C0, symBinAddr: 0x100006D10, symSize: 0x0 }
+  - { offset: 0x9A9BB, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher4hostSSvp', symObjAddr: 0x91C8, symBinAddr: 0x100006D18, symSize: 0x0 }
+  - { offset: 0x9A9D5, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher7fetcherAA011CertificateB0Cvp', symObjAddr: 0x91D8, symBinAddr: 0x100006D28, symSize: 0x0 }
+  - { offset: 0x9AB4F, size: 0x8, addend: 0x0, symName: _SSLCertFetcher_main, symObjAddr: 0x0, symBinAddr: 0x100001EB0, symSize: 0x180 }
+  - { offset: 0x9AC39, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x180, symBinAddr: 0x100002030, symSize: 0x40 }
+  - { offset: 0x9AC4D, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0CMa', symObjAddr: 0x1C0, symBinAddr: 0x100002070, symSize: 0x20 }
+  - { offset: 0x9AC82, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIeghggg_So6NSDataCSgAGSo7NSErrorCSgIeyBhyyy_TR', symObjAddr: 0x530, symBinAddr: 0x1000023E0, symSize: 0xF0 }
+  - { offset: 0x9ACB0, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0CfETo', symObjAddr: 0x720, symBinAddr: 0x1000025D0, symSize: 0x40 }
+  - { offset: 0x9AD00, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo17SecCertificateRefa_Tg5', symObjAddr: 0x760, symBinAddr: 0x100002610, symSize: 0x1D0 }
+  - { offset: 0x9AE56, size: 0x8, addend: 0x0, symName: '_$sSo17SecCertificateRefaMa', symObjAddr: 0x1390, symBinAddr: 0x100003240, symSize: 0x30 }
+  - { offset: 0x9AE6A, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x13C0, symBinAddr: 0x100003270, symSize: 0x30 }
+  - { offset: 0x9AE7E, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x13F0, symBinAddr: 0x1000032A0, symSize: 0x40 }
+  - { offset: 0x9AE92, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOh', symObjAddr: 0x1430, symBinAddr: 0x1000032E0, symSize: 0x30 }
+  - { offset: 0x9AEA6, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0C3runyyFy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtYbcfU_TA', symObjAddr: 0x1490, symBinAddr: 0x100003340, symSize: 0x140 }
+  - { offset: 0x9AF9E, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x15D0, symBinAddr: 0x100003480, symSize: 0x20 }
+  - { offset: 0x9AFB2, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x15F0, symBinAddr: 0x1000034A0, symSize: 0x10 }
+  - { offset: 0x9AFC6, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x1600, symBinAddr: 0x1000034B0, symSize: 0x20 }
+  - { offset: 0x9B2D1, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0C3runyyF', symObjAddr: 0x1E0, symBinAddr: 0x100002090, symSize: 0x350 }
+  - { offset: 0x9B47D, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0C10urlSession_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0j4AuthL11DispositionV_So15NSURLCredentialCSgtctFTo', symObjAddr: 0x620, symBinAddr: 0x1000024D0, symSize: 0xA0 }
+  - { offset: 0x9B4BB, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0CACycfcTo', symObjAddr: 0x6C0, symBinAddr: 0x100002570, symSize: 0x30 }
+  - { offset: 0x9B510, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0CfD', symObjAddr: 0x6F0, symBinAddr: 0x1000025A0, symSize: 0x30 }
+  - { offset: 0x9B56D, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0C7savePEM4from2toy10Foundation4DataV_SStFTf4nnd_n', symObjAddr: 0x930, symBinAddr: 0x1000027E0, symSize: 0x380 }
+  - { offset: 0x9B895, size: 0x8, addend: 0x0, symName: '_$s14SSLCertFetcher011CertificateB0C10urlSession_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0j4AuthL11DispositionV_So15NSURLCredentialCSgtctF06$sSo36jmln5VSo15O21CSgIeyByy_AbEIegyg_TRAlOIeyByy_Tf1nncn_nTf4dnng_n', symObjAddr: 0xCB0, symBinAddr: 0x100002B60, symSize: 0x6E0 }
+...

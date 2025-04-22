@@ -1,0 +1,232 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SSLCertFetcher-x86_64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources",
+      "importPath" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SSLCertFetcher",
+      "moduleOutputPath" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules/SSLCertFetcher.swiftmodule",
+      "objects" : [
+        "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx12.0",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SSLCertFetcher_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sslcertfetcher"
+      ],
+      "outputFileMapPath" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules/SSLCertFetcher.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift"
+      ],
+      "tempsPath" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SSLCertFetcher" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SSLCertFetcher",
+      "-package-name",
+      "sslcertfetcher",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift",
+      "-I",
+      "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/Modules",
+      "-target",
+      "x86_64-apple-macosx12.0",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SSLCertFetcher_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sslcertfetcher",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SSLCertFetcher" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/sources"
+    },
+    "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/certfetcher.product/Objects.LinkFileList"
+    },
+    "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

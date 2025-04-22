@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/SSLCertFetcher.d",
+    "object": "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/SSLCertFetcher.o",
+    "swift-dependencies": "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/master.swiftdeps"
+  },
+  "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift": {
+    "object": "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swift.o",
+    "swiftmodule": "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/.build/x86_64-apple-macosx/release/SSLCertFetcher.build/main.swiftdeps"
+  }
+}

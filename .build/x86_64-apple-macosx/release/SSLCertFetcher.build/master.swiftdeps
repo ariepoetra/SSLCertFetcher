@@ -1,0 +1,6 @@
+version: "Apple Swift version 6.1 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)"
+options: "fa412744b200d62dfc40d1b5f2ff9eb044ceffd7e1aafe82214a87612e533a23"
+build_start_time: [1745335002, 374437000]
+build_end_time: [1745335003, 296297000]
+inputs:
+  "/Users/nafi/DEVELOPMENT/IOS PROJ/SSLCertFetcher/Sources/SSLCertFetcher/main.swift": [1745334995, 523968668]
